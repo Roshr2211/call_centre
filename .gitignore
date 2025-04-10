@@ -23,7 +23,12 @@ __pycache__/
 *.py[cod]
 *.egg
 *.egg-info/
+
+# ignore .env in root
 .env
+
+# ignore .env in all subdirectories
+**/.env
 
 # Environment files
 .env
